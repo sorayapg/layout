@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Comfortaa";
+    src: url('../fonts/Comfortaa/Comfortaa-Bold.ttf');
+}
+
+body {
+    font-family: "Comfortaa";
+}
+
+h1 {
+    font-weight: normal;
+}
+
+p {
+    font-size: 700;
+}
