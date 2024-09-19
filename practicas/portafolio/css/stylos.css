@@ -269,3 +269,30 @@ footer .redes-sociales .facebook:hover { background: #3b5998;}
 footer .redes-sociales .youtube:hover { background: #cd201f;}
 footer .redes-sociales .github:hover { background: #666666;}
 footer .redes-sociales .instagram:hover { background: #3f729b;}
+
+/* ..... ..... MEDIA QUERIES ..... .....*/
+
+@media screen and (max-width: 800px) {
+    header .menu {
+        text-align: center;
+    }
+
+    .main .trabajos .contenedor-trabajos .trabajo {
+        width: 46%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header .contenedor-texto .texto .nombre {
+        font-size: 35px;
+    }
+
+    header .contenedor-texto .texto .profesion {
+        font-size: 18px;
+    }
+
+    footer .redes-sociales .contenedor {
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+}
