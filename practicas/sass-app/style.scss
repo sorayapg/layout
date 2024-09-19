@@ -1,0 +1,20 @@
+// style.scss
+@use "sass:color";
+
+$primary-color: #3498db;
+$secondary-color: #e74c3c;
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: color.adjust($primary-color, $lightness: 20%);
+
+  h1 {
+    color: $primary-color;
+  }
+
+  p {
+    color: $secondary-color;
+  }
+}
