@@ -23,6 +23,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     max-height: 600px;
+    /*height: 100vh;*/
 }
 
 header .menu {
@@ -32,7 +33,7 @@ header .menu {
 
 header .menu  a{
     margin: 0 20px;
-    color: #fff;
+    color: black;
     padding-bottom: 9px;
     display: inline-block;
     text-decoration: none;
